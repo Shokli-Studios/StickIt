@@ -1,2 +1,80 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+<html>
+	<head>
+		
+	</head>
+
+	<body>
+	<div id="fill"></div>
+	<center>
+		<p id="titleblock">Stick It!</p>
+
+		<table style="border: black 1px solid" id="options"><!--Table will contain menu options-->
+			<tr>
+				
+			</tr>
+
+			<tr>
+
+			</tr>
+		</table>
+		<table style="border: black 1px solid" id="right"><!--Table responsible for generating stickers in and out-->
+			<tr>
+				<td><canvas class="sticker"></canvas></td>
+				<td><canvas class="sticker"></canvas></td>
+				<td><canvas class="sticker"></canvas></td>
+			</tr>
+
+			<tr>
+				<td><canvas class="sticker"></canvas></td>
+				<td><canvas class="sticker"></canvas></td>
+				<td><canvas class="sticker"></canvas></td>
+			</tr>
+
+			<tr>
+				<td><canvas class="sticker"></canvas></td>
+				<td><canvas class="sticker"></canvas></td>
+				<td><canvas class="sticker"></canvas></td>
+			</tr>
+
+			<tr>
+				<td><canvas class="sticker"></canvas></td>
+				<td><canvas class="sticker"></canvas></td>
+				<td><canvas class="sticker"></canvas></td>
+			</tr>
+		</table>
+
+		<table style="border: black 1px solid" id="left"> <!--Table responsible for generating stickers in and out-->
+			<tr>
+				
+			</tr>
+		</table>
+
+		<div class="button_container">
+			<div id="button_Log" onclick="myMove(true)"><span>Log In</span></div>
+			<form id="text1"><input type="text" name="form1"></form>
+		</div>
+
+		
+		<div class="button_container">
+			<div id="button_Sign" onclick="myMove(false)"><span>Sign Up</span></div>
+			<form id="text2"><input type="text" name="form1"></form>
+		</div>
+		
+
+		<div class="button_container">
+			<form id="text3"><input type="password" name="form1"></form>
+		</div>
+
+		<div class="button_container">
+			<form id="text4"><input type="password" name="form1"></form>
+		</div>
+
+	</center>
+
+
+	<footer>
+		Shokli Studios&copy
+	</footer>
+	</body>
+</html>
+
