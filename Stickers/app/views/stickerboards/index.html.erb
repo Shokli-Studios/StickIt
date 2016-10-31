@@ -1,0 +1,14 @@
+<div class="dashboard">
+	<p>User: <%# Enter User ID He%> Shokli</p>
+</div>
+<div class="boardNames">
+	<% @stickerboards.each do |board|%>
+	<div class="name">
+		<p><%= board.board_name %> </p>
+	</div>
+	<% end %>
+	<div class="name">
+		<p>"+"</p>
+	</div>
+
+</div>

@@ -1,9 +1,9 @@
 <html>
-	<head>
+	<head >
 		
 	</head>
 
-	<body>
+	<body onLoad="intervalStickerMaker();">
 	<div id="fill"></div>
 	<center>
 		<p id="titleblock">Stick It!</p>
@@ -17,7 +17,7 @@
 
 			</tr>
 		</table>
-		<table style="border: black 1px solid" id="right"><!--Table responsible for generating stickers in and out-->
+		<table style="border: black 1px solid" id="right" onclick="DrawSticker(3,'right')"><!--Table responsible for generating stickers in and out-->
 			<tr>
 				<td><canvas class="sticker"></canvas></td>
 				<td><canvas class="sticker"></canvas></td>

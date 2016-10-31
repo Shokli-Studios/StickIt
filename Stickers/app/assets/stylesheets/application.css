@@ -123,6 +123,8 @@ footer
 #right canvas{
 	
 	border: black 1px solid;
+	height:200px;
+	width: 200px;
 }
 
 #left{

@@ -1,0 +1,19 @@
+<div class="sticker">
+	<div class="container">
+		<% @stickers.each do |sticker| %>
+			<div  class="stick">
+				<div class="title">
+					<p><%= sticker.title %></p>
+				</div>
+
+				<div class="date">
+					<p><%= sticker.date %>
+				</div>
+
+				<div class="content">
+					<p><%= sticker.content %></p>
+				</div>
+			</div>
+		<% end %>	
+	</div>
+</div>

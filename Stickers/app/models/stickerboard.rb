@@ -1,0 +1,2 @@
+class Stickerboard < ApplicationRecord
+end
